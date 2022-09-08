@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="./css/customAnimation.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>SEVEN</title>
+  </head>
+  <body>
+    <main id="home">
+      <header class="hero">
+        <div class="overlay"></div>
+        <span>Awesome Theme</span>
+        <h1>WECLOME TO THE SEVEN THEME</h1>
+        <a href="#" class="btn main-btn mHover">Download</a>
+      </header>
+    </main>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+          <img src="./images/header/navlogo/logo.png" alt="" />
+        </div>
+        <i class="hamburger fa fa-bars"></i>
+        <ul class="links">
+          <li class="link"><a href="#home">Home</a></li>
+          <li class="link"><a href="#ourFuel">Services</a></li>
+          <li class="link"><a href="#ourGallery">Portfolio</a></li>
+          <li class="link"><a href="#inspiration">About</a></li>
+          <li class="link"><a href="#ourBlog">News</a></li>
+          <li class="link"><a href="#contact-us">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="fuel" id="ourFuel">
+      <header class="description">
+        <h2 class="customHeading">Design is our fuel</h2>
+        <p>
+          If a feature or product were legitimately easy the user would not be
+          writing in to support about how stuck they are. Sure, some percentage
+          of users will find questions to ask about any interface. But do you
+          want to start the conversation by assuming the user falls into that
+          percentage? You venture to learn much more if you assume the software
+          is wrong, not the user.
+        </p>
+      </header>
+
+      <div class="container">
+        <div class="services">
+          <div class="left">
+            <div class="serv-block sukaar" data-sukaar-name="fadeIn">
+              <i class="icon fa-regular fa-gem"></i>
+              <div class="text">
+                <h3>Design</h3>
+                <p>Design is the silent ambassador of your brand.</p>
+              </div>
+            </div>
+
+            <div class="serv-block sukaar" data-sukaar-name="fadeIn">
+              <i class="icon fa fa-camera"></i>
+              <div class="text">
+                <h3>Photography</h3>
+                <p>
+                  Sometimes the best way to prove your own value is to let a
+                  client play the field.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="phone sukaar" data-sukaar-name="slideInDown">
+            <img src="./images/fuel/phone.png" alt="" />
+          </div>
+          <div class="right">
+            <div class="serv-block sukaar" data-sukaar-name="fadeIn">
+              <i class="icon fa fa-code"></i>
+              <div class="text">
+                <h3>Coding</h3>
+                <p>
+                  If you find an element of your interface requires
+                  instructions, then you need to redesign it.
+                </p>
+              </div>
+            </div>
+
+            <div class="serv-block sukaar" data-sukaar-name="fadeIn">
+              <i class="icon fa fa-cubes"></i>
+              <div class="text">
+                <h3>Apps</h3>
+                <p>
+                  He who cannot draw on three thousand years is living from hand
+                  to mouth.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="video" id="ourVid">
+      <div class="vid-overlay">
+        <div class="closeOverlay fa fa-close"></div>
+        <!-- <iframe
+          src="https://www.youtube.com/embed/21sqaW4ooDM?start=848"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe> -->
+      </div>
+      <div class="container">
+        <div class="overlay"></div>
+        <i class="icon fa fa-play"></i>
+        <h3>Play video and be amazed</h3>
+        <span>Than lovely frames</span>
+      </div>
+    </section>
+
+    <section class="gallery" id="ourGallery">
+      <header class="discription">
+        <h2 class="customHeading">What we done so far</h2>
+        <p>
+          I believe that a good user interface is carefully targeted towards its
+          audience, with the right mixture of simplicity, elegance and
+          innovation.
+        </p>
+      </header>
+
+      <div class="masonry">
+        <div class="container">
+          <ul class="tabs">
+            <li class="catigory activeTab" data-cat="all">All</li>
+            <li class="catigory" data-cat="mocks">Mockups</li>
+            <li class="catigory" data-cat="icons">Icons</li>
+            <li class="catigory" data-cat="uikits">UI Kits</li>
+            <li class="catigory" data-cat="temps">Templates</li>
+          </ul>
+        </div>
+        <div class="images">
+          <div
+            data-cat="icons"
+            class="img sukaar"
+            data-sukaar-name="slideInDown"
+          >
+            <div class="overlay">
+              <h3>Adena icons pack</h3>
+              <span>icons</span>
+            </div>
+            <img src="./images/gallery/adena.png" alt="" />
+          </div>
+          <div
+            data-cat="uikits"
+            class="img sukaar"
+            data-sukaar-name="slideInDown"
+          >
+            <div class="overlay">
+              <h3>Atom Ui Kit</h3>
+              <span>Ui Kits</span>
+            </div>
+            <img src="./images/gallery/atom.png" alt="" />
+          </div>
+          <div
+            data-cat="icons"
+            class="img sukaar"
+            data-sukaar-name="slideInDown"
+          >
+            <div class="overlay">
+              <h3>60 Flat Icons</h3>
+              <span>icons</span>
+            </div>
+            <img src="./images/gallery/flat.png" alt="" />
+          </div>
+          <div
+            data-cat="mocks"
+            class="img sukaar"
+            data-sukaar-name="slideInDown"
+          >
+            <div class="overlay">
+              <h3>Ipad Mockups</h3>
+              <span>Mockups</span>
+            </div>
+            <img src="./images/gallery/ipad.jpg" alt="" />
+          </div>
+          <div
+            data-cat="temps"
+            class="img sukaar"
+            data-sukaar-name="slideInDown"
+          >
+            <div class="overlay">
+              <h3>Ket Web Template</h3>
+              <span>Templates</span>
+            </div>
+            <img src="./images/gallery/ket.jpg" alt="" />
+          </div>
+          <div
+            data-cat="mocks"
+            class="img sukaar"
+            data-sukaar-name="slideInDown"
+          >
+            <div class="overlay">
+              <h3>Smart Phone Mockup</h3>
+              <span>Mockups</span>
+            </div>
+            <img src="./images/gallery/modern-phone.jpg" alt="" />
+          </div>
+          <div
+            data-cat="temps"
+            class="img sukaar"
+            data-sukaar-name="slideInDown"
+          >
+            <div class="overlay">
+              <h3>Mentum Web Theme</h3>
+              <span>Templates</span>
+            </div>
+            <img src="./images/gallery/mentum.png" alt="" />
+          </div>
+          <div
+            data-cat="uikits"
+            class="img sukaar"
+            data-sukaar-name="slideInDown"
+          >
+            <div class="overlay">
+              <h3>Sven Ui Kit</h3>
+              <span>Ui Kits</span>
+            </div>
+            <img src="./images/gallery/sven.jpg" alt="" />
+          </div>
+        </div>
+        <!-- </div> -->
+      </div>
+    </section>
+
+    <section class="qoute" id="inspiration">
+      <div class="container">
+        <div class="container-inside">
+          <h3>
+            <span>Some</span>
+            words about us
+          </h3>
+          <p>
+            I don`t think that all people read in the same way. Today, entire
+            generations are growing up watching MTV and playing video games and
+            it is safe to assume that these people have a high degree of visual
+            sophistication. and are not easily discouraged by a lens
+            straightforward or ambiguous typography. On the contrary, they are
+            attracted and enticed to read something because of visual richness.
+          </p>
+          <a href="" class="btn main-btn mHover">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-team" id="ourTeam">
+      <header class="description">
+        <h3 class="customHeading">Meet Our Team</h3>
+        <p>
+          Be regular and orderly in your life like a bourgeois, so that you may
+          be violent and original in your work.
+        </p>
+      </header>
+
+      <div class="team-cards container">
+        <div class="card sukaar" data-sukaar-name="slideInDown">
+          <div class="img">
+            <img src="./images/Team/team-1.jpg" alt="" />
+            <div class="social">
+              <q>If I had more time, I would have written a shorter letter.</q>
+              <div class="social-icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-pinterest"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="identity">
+            <h3>John Doe</h3>
+            <p>Graphic Designer</p>
+          </div>
+        </div>
+
+        <div
+          class="card sukaar"
+          data-sukaar-name="slideInDown"
+          data-sukaar-delay="0.25"
+        >
+          <div class="img">
+            <img src="./images/Team/team-1.jpg" alt="" />
+            <div class="social">
+              <q>If I had more time, I would have written a shorter letter.</q>
+              <div class="social-icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-pinterest"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="identity">
+            <h3>John Doe</h3>
+            <p>Graphic Designer</p>
+          </div>
+        </div>
+
+        <div
+          class="card sukaar"
+          data-sukaar-name="slideInDown"
+          data-sukaar-delay="0.5"
+        >
+          <div class="img">
+            <img src="./images/Team/team-1.jpg" alt="" />
+            <div class="social">
+              <q>If I had more time, I would have written a shorter letter.</q>
+              <div class="social-icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-pinterest"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="identity">
+            <h3>John Doe</h3>
+            <p>Graphic Designer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog" id="ourBlog">
+      <div class="overlay"></div>
+      <header class="sukaar" data-sukaar-name="fadeIn" data-sukaar-duration="1">
+        <h2 class="customHeading">Our blog story</h2>
+        <p>Design is where science and art break even.</p>
+      </header>
+      <div class="blogs container">
+        <div class="blog-post sukaar" data-sukaar-name="slideInDown">
+          <img src="./images/blog/blog-1.jpg" alt="" />
+          <div class="blog-disc">
+            <h4 class="blog-title">
+              10+ PHOTOREALISTIC PSD BUSINESS CARD MOCKUPS
+            </h4>
+            <p class="blog-p">
+              Mockups are useful to display your won business card in style
+              instead of the flat front and back page of the card. The depth and
+              look of your business card is tripled with mockup as if it were
+              real....
+            </p>
+            <a href="#">Read More...</a>
+          </div>
+        </div>
+
+        <div
+          class="blog-post sukaar"
+          data-sukaar-name="slideInDown"
+          data-sukaar-delay="0.33"
+        >
+          <img src="./images/blog/blog-2.png" alt="" />
+          <div class="blog-disc">
+            <h4 class="blog-title">
+              NEWSLETTER DESIGN
+            </h4>
+            <p class="blog-p">
+              All projects are different, but you have treat each one with care.
+              Sometimes you get to build a luxury yacht; other times, it`ll be a
+              rowboat. You still have to make sure the thing doesn`t spring a
+              leak.
+            </p>
+            <a href="#">Read More...</a>
+          </div>
+        </div>
+
+        <div
+          class="blog-post sukaar"
+          data-sukaar-name="slideInDown"
+          data-sukaar-delay="0.5"
+        >
+          <img src="./images/blog/blog-3.png" alt="" />
+          <div class="blog-disc">
+            <h4 class="blog-title">
+              NOTHING`S IMPOSSIBLE
+            </h4>
+            <p class="blog-p">
+              In the matter of layout, forget art and use horse-sense. The
+              printer-designer`s whole duty is to make a clear presentation of
+              the message… This calls for an exercise of common sense...
+            </p>
+            <a href="#">Read More...</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact-us">
+      <header>
+        <h2 class="customHeading">
+          Keep in touch
+        </h2>
+        <p class="txt-center">
+          The works must be conceived with fire in the soul, but executed with
+          clinical coolness.
+        </p>
+      </header>
+
+      <form action="" class="contact-us container">
+        <input
+          type="text"
+          name="username"
+          id=""
+          placeholder="Username"
+          class="sukaar"
+          data-sukaar-name="slideInLeft"
+        />
+        <input
+          type="email"
+          name="email"
+          id=""
+          placeholder="Email"
+          class="sukaar"
+          data-sukaar-name="slideInRight"
+        />
+        <input
+          type="text"
+          name="subject"
+          id=""
+          placeholder="Subject"
+          class="sukaar"
+          data-sukaar-name="slideInDown"
+        />
+        <textarea
+          name="message"
+          id=""
+          placeholder="Message"
+          class="sukaar"
+          data-sukaar-name="slideInDown"
+        ></textarea>
+        <button type="submit" class="sukaar" data-sukaar-name="slideInDown">
+          SEND
+        </button>
+      </form>
+
+      <div class="author-information">
+        <div class="info phone sukaar" data-sukaar-name="bounceIn">
+          <i class="fa fa-phone"></i>
+          <p>+20 115-800-2847</p>
+        </div>
+
+        <div
+          class="info mail sukaar"
+          data-sukaar-name="bounceIn"
+          data-sukaar-delay="0.25"
+        >
+          <i class="fa fa-envelope"></i>
+          <p>s0qq4r@gmail.com</p>
+        </div>
+
+        <div
+          class="info locaion sukaar"
+          data-sukaar-name="bounceIn"
+          data-sukaar-delay="0.5"
+        >
+          <i class="fa fa-earth"></i>
+          <p>Alexandria, EGYPT</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="end" id="cya">
+      <div class="copy">
+        Theme Created By
+        <b>GraphBerry</b>
+        <br />
+        Coded By,
+        <b>Muhammed Ibrahem ( SuKaar )</b>
+      </div>
+
+      <a class="social-media">
+        <i class="fab fa-facebook-f sukaar" data-sukaar-name="slideInRight"></i>
+        <i
+          class="fab fa-twitter sukaar"
+          data-sukaar-name="slideInRight"
+          data-sukaar-delay="0.1"
+        ></i>
+        <i
+          class="fab fa-linkedin sukaar"
+          data-sukaar-name="slideInRight"
+          data-sukaar-delay="0.2"
+        ></i>
+        <i
+          class="fab fa-dribbble sukaar"
+          data-sukaar-name="slideInRight"
+          data-sukaar-delay="0.3"
+        ></i>
+        <i
+          class="fab fa-pinterest sukaar"
+          data-sukaar-name="slideInRight"
+          data-sukaar-delay="0.4"
+        ></i>
+        <i
+          class="fab fa-google-plus sukaar"
+          data-sukaar-name="slideInRight"
+          data-sukaar-delay="0.5"
+        ></i>
+        <i
+          class="fab fa-behance sukaar"
+          data-sukaar-name="slideInRight"
+          data-sukaar-delay="0.6"
+        ></i>
+      </a>
+      <a class="toTop goTop" href="#home">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </footer>
+
+    <a href="#home" class="fixedToTop goTop"><i class="fa fa-arrow-up"></i></a>
+    <script src="./js/SuKaarAnimation.js"></script>
+    <script src="./js/seven.js"></script>
+  </body>
+</html>
